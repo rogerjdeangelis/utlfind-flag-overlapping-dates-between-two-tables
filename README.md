@@ -200,6 +200,58 @@ Find overlapping dates between two tables and create a flag
     https://tinyurl.com/khkhkxxm
     https://github.com/rogerjdeangelis/utl-sqlite-processing-in-python-with-added-math-and-stat-functions
 
+    github    %let pgm=utlfind-flag-overlapping-dates-between-two-tables;
+
+    Find overlapping dates between two tables and create a flag (SAS,python,R,WPS)
+
+      Suggest you investigate solutions 6 and 7
+
+      Seven Solutions
+
+            1. SAS Sql ( interesting use of exist in SQL)
+               Solution by https://stackoverflow.com/users/108797/chris-j
+            2. Python SQL
+            3. R SQL
+            4. SAS Hash
+               by https://stackoverflow.com/users/1249962/richard
+            5. WPS Hash
+            6. SAS Temp Array indexed by data
+               Mark Keintz
+               SIMPLE DESCRIPTION
+               Given a range of dates and a single date, generate an array with
+               every date in the range then check to see if the single new date is in the
+               array of sequential dates. If the date is in the range then there
+               is ovelap.
+               mkeintz@outlook.com
+            7. WPS Temp Array indexed by data
+               Mark Keintz
+               mkeintz@outlook.com
+
+
+    github
+    https://tinyurl.com/3myadx5e
+    https://github.com/rogerjdeangelis/utlfind-flag-overlapping-dates-between-two-tables
+
+    stackoverflow
+    https://tinyurl.com/ypdfetsn
+    https://stackoverflow.com/questions/75562601/need-help-finding-overlapping-dates-between-two-tables-and-creating-a-y-n-flag-i
+
+    Related
+    https://github.com/rogerjdeangelis?tab=repositories&q=overlap&type=&language=&sort=
+
+    https://stackoverflow.com/users/108797/chris-j
+    https://stackoverflow.com/users/1249962/richard
+
+
+    Unfortunately it appears that Python and R depecate frquently so you may
+    need to use slighly different package syntax.
+
+    Seems to be some kind of aversion to SQL in python and R, but nto SAS nad WPS.
+
+    gitnub
+    https://tinyurl.com/khkhkxxm
+    https://github.com/rogerjdeangelis/utl-sqlite-processing-in-python-with-added-math-and-stat-functions
+
     github
     https://tinyurl.com/5y76xszm
     https://github.com/rogerjdeangelis/utl-proc-summary-in-sas-R-and-python-sql
